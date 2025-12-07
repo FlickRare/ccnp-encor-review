@@ -1,0 +1,76 @@
+name: encor-review
+
+topology:
+  nodes:
+    R1:
+      kind: cisco_iol
+      image: vrnetlab/cisco_iol:17.15.01
+
+    R2:
+      kind: cisco_iol
+      image: vrnetlab/cisco_iol:17.15.01
+
+    R3:
+      kind: cisco_iol
+      image: vrnetlab/cisco_iol:17.15.01
+
+    R4:
+      kind: cisco_iol
+      image: vrnetlab/cisco_iol:17.15.01
+
+    R5:
+      kind: cisco_iol
+      image: vrnetlab/cisco_iol:17.15.01
+
+    R61:
+      kind: cisco_iol
+      image: vrnetlab/cisco_iol:17.15.01
+
+    R62:
+      kind: cisco_iol
+      image: vrnetlab/cisco_iol:17.15.01
+
+    R68:
+      kind: cisco_iol
+      image: vrnetlab/cisco_iol:17.15.01
+
+    CSW1:
+      kind: cisco_iol
+      image: vrnetlab/cisco_iol:17.15.01
+      type: l2
+  
+    R7:
+      kind: cisco_iol
+      image: vrnetlab/cisco_iol:17.15.01
+
+    R8:
+      kind: cisco_iol
+      image: vrnetlab/cisco_iol:17.15.01
+
+    R9:
+      kind: cisco_iol
+      image: vrnetlab/cisco_iol:17.15.01
+
+    CSR1:
+      kind: vr-csr
+      image: vrnetlab/cisco_csr1000v:17.03.08
+
+  links:
+    - endpoints: [R1:e0/1, R2:e0/1]
+    - endpoints: [R1:e0/2, R61:e0/1]
+    - endpoints: [R2:e0/2, R3:e0/1]
+    - endpoints: [R2:e0/3, R4:e0/3]
+    - endpoints: [R2:e1/0, R5:e0/3]
+    - endpoints: [R2:e1/2, R7:e0/1]
+    - endpoints: [R3:e0/2, R7:e1/0]
+    - endpoints: [R4:e0/2, R5:e0/2]
+    - endpoints: [R5:e0/1, R8:e0/1]
+    - endpoints: [R68:e0/1, R8:e0/3]
+    - endpoints: [R62:e0/1, R2:e1/1]
+    - endpoints: [R7:e0/2, CSR1:Gi2]
+    - endpoints: [R7:e0/3, R9:e0/1]
+    - endpoints: [R8:e0/2, CSR1:Gi4]
+    - endpoints: [R9:e0/2, CSR1:Gi3]
+    - endpoints: [CSW1:e0/1, R61:e0/2]
+    - endpoints: [CSW1:e0/2, R62:e0/2]
+    - endpoints: [CSW1:e0/3, R68:e0/2]

@@ -1,0 +1,427 @@
+{
+  "freeTextAnnotations": [
+    {
+      "id": "freeText_1765014490715_1",
+      "text": "6.8.6.8.0/30",
+      "position": {
+        "x": 254,
+        "y": 224
+      },
+      "fontSize": 6,
+      "fontColor": "#ffffff",
+      "backgroundColor": "#000000",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "fontFamily": "monospace",
+      "textAlign": "left",
+      "rotation": 0,
+      "roundedBackground": true
+    },
+    {
+      "id": "freeText_1765014525823_2",
+      "text": "8.9.8.0/30",
+      "position": {
+        "x": 309,
+        "y": 260
+      },
+      "fontSize": 6,
+      "fontColor": "#ffffff",
+      "backgroundColor": "#000000",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "fontFamily": "monospace",
+      "textAlign": "left",
+      "rotation": 0,
+      "roundedBackground": true
+    },
+    {
+      "id": "freeText_1765014537059_3",
+      "text": "7.1.7.0/30",
+      "position": {
+        "x": 426,
+        "y": 182
+      },
+      "fontSize": 6,
+      "fontColor": "#ffffff",
+      "backgroundColor": "#000000",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "fontFamily": "monospace",
+      "textAlign": "left",
+      "rotation": 0,
+      "roundedBackground": true
+    },
+    {
+      "id": "freeText_1765014545391_4",
+      "text": "7.9.7.0/30",
+      "position": {
+        "x": 483,
+        "y": 182
+      },
+      "fontSize": 6,
+      "fontColor": "#ffffff",
+      "backgroundColor": "#000000",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "fontFamily": "monospace",
+      "textAlign": "left",
+      "rotation": 0,
+      "roundedBackground": true
+    },
+    {
+      "id": "freeText_1765014564770_5",
+      "text": "6.8.6.0/30",
+      "position": {
+        "x": 151,
+        "y": 218
+      },
+      "fontSize": 6,
+      "fontColor": "#ffffff",
+      "backgroundColor": "#000000",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "fontFamily": "monospace",
+      "textAlign": "left",
+      "rotation": 0,
+      "roundedBackground": true
+    },
+    {
+      "id": "freeText_1765014580851_6",
+      "text": "2.6.2.0/30",
+      "position": {
+        "x": 184,
+        "y": 106
+      },
+      "fontSize": 6,
+      "fontColor": "#ffffff",
+      "backgroundColor": "#000000",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "fontFamily": "monospace",
+      "textAlign": "left",
+      "rotation": 0,
+      "roundedBackground": true
+    },
+    {
+      "id": "freeText_1765014592431_7",
+      "text": "6.1.6.0/30",
+      "position": {
+        "x": 147,
+        "y": 35
+      },
+      "fontSize": 6,
+      "fontColor": "#ffffff",
+      "backgroundColor": "#000000",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "fontFamily": "monospace",
+      "textAlign": "left",
+      "rotation": 0,
+      "roundedBackground": true
+    },
+    {
+      "id": "freeText_1765014607004_8",
+      "text": "3.7.3.0/30",
+      "position": {
+        "x": 391,
+        "y": 70
+      },
+      "fontSize": 6,
+      "fontColor": "#ffffff",
+      "backgroundColor": "#000000",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "fontFamily": "monospace",
+      "textAlign": "left",
+      "rotation": 0,
+      "roundedBackground": true
+    },
+    {
+      "id": "freeText_1765014883132_14",
+      "text": "10.9.1.0/30",
+      "position": {
+        "x": 483,
+        "y": 258
+      },
+      "fontSize": 6,
+      "fontColor": "#ffffff",
+      "backgroundColor": "#000000",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "fontFamily": "monospace",
+      "textAlign": "left",
+      "rotation": 0,
+      "roundedBackground": true
+    },
+    {
+      "id": "freeText_1765014919634_15",
+      "text": "2.7.2.0/30",
+      "position": {
+        "x": 363,
+        "y": 106
+      },
+      "fontSize": 6,
+      "fontColor": "#ffffff",
+      "backgroundColor": "#000000",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "fontFamily": "monospace",
+      "textAlign": "left",
+      "rotation": 0,
+      "roundedBackground": true
+    }
+  ],
+  "freeShapeAnnotations": [],
+  "groupStyleAnnotations": [
+    {
+      "id": "ASN 9:1",
+      "backgroundColor": "#d9d9d9",
+      "backgroundOpacity": 20,
+      "borderColor": "#dddddd",
+      "borderWidth": 0.5,
+      "borderStyle": "solid",
+      "borderRadius": 0,
+      "color": "#ebecf0",
+      "labelPosition": "top-center"
+    },
+    {
+      "id": "ASN 8:1",
+      "backgroundColor": "#d9d9d9",
+      "backgroundOpacity": 20,
+      "borderColor": "#dddddd",
+      "borderWidth": 0.5,
+      "borderStyle": "solid",
+      "borderRadius": 0,
+      "color": "#ebecf0",
+      "labelPosition": "top-center"
+    },
+    {
+      "id": "ASN 7:1",
+      "backgroundColor": "#d9d9d9",
+      "backgroundOpacity": 20,
+      "borderColor": "#dddddd",
+      "borderWidth": 0.5,
+      "borderStyle": "solid",
+      "borderRadius": 0,
+      "color": "#ebecf0",
+      "labelPosition": "top-center"
+    },
+    {
+      "id": "ASN6:1",
+      "backgroundColor": "#d9d9d9",
+      "backgroundOpacity": 20,
+      "borderColor": "#dddddd",
+      "borderWidth": 0.5,
+      "borderStyle": "solid",
+      "borderRadius": 0,
+      "color": "#ebecf0",
+      "labelPosition": "top-center"
+    },
+    {
+      "id": "ASN 42:1",
+      "backgroundColor": "#d9d9d9",
+      "backgroundOpacity": 20,
+      "borderColor": "#dddddd",
+      "borderWidth": 0.5,
+      "borderStyle": "solid",
+      "borderRadius": 0,
+      "color": "#ebecf0",
+      "labelPosition": "top-center"
+    }
+  ],
+  "cloudNodeAnnotations": [],
+  "nodeAnnotations": [
+    {
+      "id": "R1",
+      "icon": "router",
+      "position": {
+        "x": 203,
+        "y": 35
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      },
+      "group": "ASN 42",
+      "level": "1"
+    },
+    {
+      "id": "R2",
+      "icon": "router",
+      "position": {
+        "x": 273,
+        "y": 105
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      },
+      "group": "ASN 42",
+      "level": "1"
+    },
+    {
+      "id": "R3",
+      "icon": "router",
+      "position": {
+        "x": 343,
+        "y": 35
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      },
+      "group": "ASN 42",
+      "level": "1"
+    },
+    {
+      "id": "R4",
+      "icon": "router",
+      "position": {
+        "x": 203,
+        "y": 175
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      },
+      "group": "ASN 42",
+      "level": "1"
+    },
+    {
+      "id": "R5",
+      "icon": "router",
+      "position": {
+        "x": 343,
+        "y": 175
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      },
+      "group": "ASN 42",
+      "level": "1"
+    },
+    {
+      "id": "R61",
+      "icon": "router",
+      "position": {
+        "x": 91,
+        "y": 35
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      },
+      "group": "ASN6",
+      "level": "1"
+    },
+    {
+      "id": "R62",
+      "icon": "router",
+      "position": {
+        "x": 91,
+        "y": 105
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      },
+      "group": "ASN6",
+      "level": "1"
+    },
+    {
+      "id": "R68",
+      "icon": "router",
+      "position": {
+        "x": 91,
+        "y": 175
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      },
+      "group": "ASN6",
+      "level": "1"
+    },
+    {
+      "id": "CSW1",
+      "icon": "router",
+      "position": {
+        "x": 21,
+        "y": 105
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      },
+      "group": "ASN6",
+      "level": "1"
+    },
+    {
+      "id": "R7",
+      "icon": "router",
+      "position": {
+        "x": 427,
+        "y": 105
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      },
+      "group": "ASN 7",
+      "level": "1"
+    },
+    {
+      "id": "R8",
+      "icon": "router",
+      "position": {
+        "x": 189,
+        "y": 259
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      },
+      "group": "ASN 8",
+      "level": "1"
+    },
+    {
+      "id": "R9",
+      "icon": "router",
+      "position": {
+        "x": 539,
+        "y": 259
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      },
+      "group": "ASN 9",
+      "level": "1"
+    },
+    {
+      "id": "CSR1",
+      "icon": "router",
+      "position": {
+        "x": 427,
+        "y": 259
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      },
+      "group": "ASN 9",
+      "level": "1"
+    }
+  ]
+}
