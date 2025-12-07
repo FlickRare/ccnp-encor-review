@@ -2,6 +2,10 @@
 - name: Configures basic IPv4 connectivity.
   hosts: cisco_iol:vr-csr
   gather_facts: no
+  vars:
+    ansible_connection: network_cli
+    ansible_host_key_checking: false
+    ansible_network_os: cisco.ios.ios
 
   tasks:
     - name: Apply L3 Interface Configuration

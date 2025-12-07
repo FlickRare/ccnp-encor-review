@@ -4,8 +4,8 @@
       "id": "freeText_1765014490715_1",
       "text": "5.8.5.0/30",
       "position": {
-        "x": 254,
-        "y": 224
+        "x": 251,
+        "y": 219
       },
       "fontSize": 6,
       "fontColor": "#ffffff",
@@ -22,8 +22,8 @@
       "id": "freeText_1765014525823_2",
       "text": "8.9.8.0/30",
       "position": {
-        "x": 309,
-        "y": 260
+        "x": 314,
+        "y": 247
       },
       "fontSize": 6,
       "fontColor": "#ffffff",
@@ -76,8 +76,8 @@
       "id": "freeText_1765014564770_5",
       "text": "6.8.6.0/30",
       "position": {
-        "x": 151,
-        "y": 218
+        "x": 144,
+        "y": 211
       },
       "fontSize": 6,
       "fontColor": "#ffffff",
@@ -88,7 +88,9 @@
       "fontFamily": "monospace",
       "textAlign": "left",
       "rotation": 0,
-      "roundedBackground": true
+      "roundedBackground": true,
+      "width": 42,
+      "height": 14
     },
     {
       "id": "freeText_1765014580851_6",
@@ -496,7 +498,7 @@
       "icon": "router",
       "position": {
         "x": 189,
-        "y": 259
+        "y": 245
       },
       "geoCoordinates": {
         "lat": 48.684826888402256,
@@ -510,7 +512,7 @@
       "icon": "router",
       "position": {
         "x": 539,
-        "y": 259
+        "y": 245
       },
       "geoCoordinates": {
         "lat": 48.684826888402256,
@@ -524,7 +526,7 @@
       "icon": "router",
       "position": {
         "x": 427,
-        "y": 259
+        "y": 245
       },
       "geoCoordinates": {
         "lat": 48.684826888402256,

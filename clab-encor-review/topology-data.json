@@ -6,7 +6,7 @@
       "prefix": "clab",
       "mgmt": {
         "network": "clab",
-        "bridge": "br-64b5338de0dd",
+        "bridge": "br-c1def12bfa1e",
         "ipv4-subnet": "172.20.20.0/24",
         "ipv4-gw": "172.20.20.1",
         "ipv6-subnet": "3fff:172:20:20::/64",
@@ -15,7 +15,7 @@
       }
     }
   },
-  "ssh-pub-keys": ["ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDO/NZnCC24kcEzG5lmjVgUQ010+VM9vtj5jBg1Ag7Q2","ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDBkdQCnPh+MyZF4XwGDZow2oKn6gYyClrnJrn52wwyT","ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINNlq2ZRSACOaoCea356iIaNjCwkAR7GfDKdClYAC4Az"],
+  "ssh-pub-keys": ["ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDBkdQCnPh+MyZF4XwGDZow2oKn6gYyClrnJrn52wwyT","ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINNlq2ZRSACOaoCea356iIaNjCwkAR7GfDKdClYAC4Az","ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDO/NZnCC24kcEzG5lmjVgUQ010+VM9vtj5jBg1Ag7Q2"],
   "nodes": {
     "CSR1": {
       "index": "0",
@@ -28,13 +28,13 @@
       "image": "vrnetlab/cisco_csr1000v:17.03.08",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.10",
+      "mgmt-ipv4-address": "172.20.20.14",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "3fff:172:20:20::a",
+      "mgmt-ipv6-address": "3fff:172:20:20::e",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-64b5338de0dd",
+        "clab-mgmt-net-bridge": "br-c1def12bfa1e",
         "clab-node-group": "",
         "clab-node-kind": "vr-csr",
         "clab-node-lab-dir": "/home/eis/clabs/hightower/ccnp-encor-review/clab-encor-review/CSR1",
@@ -49,187 +49,7 @@
         {
           "host-ip": "",
           "host-port": 0,
-          "port": 10037,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10043,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10081,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10084,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10087,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10005,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10038,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10069,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10070,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10072,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10088,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 830,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10030,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10055,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10075,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10078,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10089,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10090,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10097,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 161,
-          "protocol": "udp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10019,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10047,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10050,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10060,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10063,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10066,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10096,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10098,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10010,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10020,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10022,
+          "port": 10008,
           "protocol": "tcp"
         },
         {
@@ -241,14 +61,62 @@
         {
           "host-ip": "",
           "host-port": 0,
-          "port": 10044,
+          "port": 10047,
           "protocol": "tcp"
         },
         {
           "host-ip": "",
           "host-port": 0,
-          "port": 10092,
+          "port": 10049,
           "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10070,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10088,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10099,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10025,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10003,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10058,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10083,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 161,
+          "protocol": "udp"
         },
         {
           "host-ip": "",
@@ -259,7 +127,91 @@
         {
           "host-ip": "",
           "host-port": 0,
-          "port": 10018,
+          "port": 830,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10017,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10044,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10045,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10072,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10075,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 22,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10006,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10030,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10043,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10077,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10094,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10096,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10040,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10053,
           "protocol": "tcp"
         },
         {
@@ -271,7 +223,19 @@
         {
           "host-ip": "",
           "host-port": 0,
-          "port": 10085,
+          "port": 10068,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10071,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10087,
           "protocol": "tcp"
         },
         {
@@ -283,25 +247,67 @@
         {
           "host-ip": "",
           "host-port": 0,
+          "port": 10002,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
           "port": 10009,
           "protocol": "tcp"
         },
         {
           "host-ip": "",
           "host-port": 0,
-          "port": 10021,
+          "port": 10020,
           "protocol": "tcp"
         },
         {
           "host-ip": "",
           "host-port": 0,
-          "port": 10028,
+          "port": 10035,
           "protocol": "tcp"
         },
         {
           "host-ip": "",
           "host-port": 0,
-          "port": 10052,
+          "port": 10037,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10063,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10082,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10051,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10054,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10000,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10012,
           "protocol": "tcp"
         },
         {
@@ -319,187 +325,7 @@
         {
           "host-ip": "",
           "host-port": 0,
-          "port": 10099,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10049,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10053,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10058,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10012,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10013,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10007,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10029,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10032,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10036,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10039,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10040,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10051,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10071,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10082,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10083,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10094,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10003,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10008,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10033,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10041,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10042,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10054,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10059,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10061,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10016,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10025,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10026,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10068,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10076,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 10079,
+          "port": 10078,
           "protocol": "tcp"
         },
         {
@@ -511,19 +337,25 @@
         {
           "host-ip": "",
           "host-port": 0,
-          "port": 10002,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
           "port": 10004,
           "protocol": "tcp"
         },
         {
           "host-ip": "",
           "host-port": 0,
-          "port": 10023,
+          "port": 10041,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10048,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10052,
           "protocol": "tcp"
         },
         {
@@ -535,19 +367,43 @@
         {
           "host-ip": "",
           "host-port": 0,
-          "port": 22,
+          "port": 10086,
           "protocol": "tcp"
         },
         {
           "host-ip": "",
           "host-port": 0,
-          "port": 10001,
+          "port": 10089,
           "protocol": "tcp"
         },
         {
           "host-ip": "",
           "host-port": 0,
-          "port": 10045,
+          "port": 10015,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10021,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10024,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10036,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10057,
           "protocol": "tcp"
         },
         {
@@ -565,19 +421,31 @@
         {
           "host-ip": "",
           "host-port": 0,
-          "port": 10091,
+          "port": 10084,
           "protocol": "tcp"
         },
         {
           "host-ip": "",
           "host-port": 0,
-          "port": 10011,
+          "port": 10022,
           "protocol": "tcp"
         },
         {
           "host-ip": "",
           "host-port": 0,
-          "port": 10014,
+          "port": 10010,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10013,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10016,
           "protocol": "tcp"
         },
         {
@@ -589,43 +457,91 @@
         {
           "host-ip": "",
           "host-port": 0,
-          "port": 10048,
+          "port": 10055,
           "protocol": "tcp"
         },
         {
           "host-ip": "",
           "host-port": 0,
-          "port": 10073,
+          "port": 10081,
           "protocol": "tcp"
         },
         {
           "host-ip": "",
           "host-port": 0,
-          "port": 10086,
+          "port": 10014,
           "protocol": "tcp"
         },
         {
           "host-ip": "",
           "host-port": 0,
-          "port": 10000,
+          "port": 10023,
           "protocol": "tcp"
         },
         {
           "host-ip": "",
           "host-port": 0,
-          "port": 10015,
+          "port": 10032,
           "protocol": "tcp"
         },
         {
           "host-ip": "",
           "host-port": 0,
-          "port": 10017,
+          "port": 10038,
           "protocol": "tcp"
         },
         {
           "host-ip": "",
           "host-port": 0,
-          "port": 10024,
+          "port": 10079,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10097,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10029,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10066,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10076,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10026,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10018,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10028,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10033,
           "protocol": "tcp"
         },
         {
@@ -637,25 +553,79 @@
         {
           "host-ip": "",
           "host-port": 0,
-          "port": 10056,
+          "port": 10073,
           "protocol": "tcp"
         },
         {
           "host-ip": "",
           "host-port": 0,
-          "port": 10057,
+          "port": 10090,
           "protocol": "tcp"
         },
         {
           "host-ip": "",
           "host-port": 0,
-          "port": 10077,
+          "port": 10092,
           "protocol": "tcp"
         },
         {
           "host-ip": "",
           "host-port": 0,
-          "port": 10006,
+          "port": 10007,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10011,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10039,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10042,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10059,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10060,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10061,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10069,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10001,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10019,
           "protocol": "tcp"
         },
         {
@@ -667,7 +637,37 @@
         {
           "host-ip": "",
           "host-port": 0,
-          "port": 10035,
+          "port": 10050,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10056,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10085,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10091,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10098,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 10005,
           "protocol": "tcp"
         }
       ]
@@ -683,13 +683,13 @@
       "image": "vrnetlab/cisco_iol:17.15.01",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.11",
+      "mgmt-ipv4-address": "172.20.20.8",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "3fff:172:20:20::b",
+      "mgmt-ipv6-address": "3fff:172:20:20::8",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-64b5338de0dd",
+        "clab-mgmt-net-bridge": "br-c1def12bfa1e",
         "clab-node-group": "",
         "clab-node-kind": "cisco_iol",
         "clab-node-lab-dir": "/home/eis/clabs/hightower/ccnp-encor-review/clab-encor-review/CSW1",
@@ -714,13 +714,13 @@
       "image": "vrnetlab/cisco_iol:17.15.01",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.13",
+      "mgmt-ipv4-address": "172.20.20.2",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "3fff:172:20:20::d",
+      "mgmt-ipv6-address": "3fff:172:20:20::2",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-64b5338de0dd",
+        "clab-mgmt-net-bridge": "br-c1def12bfa1e",
         "clab-node-group": "",
         "clab-node-kind": "cisco_iol",
         "clab-node-lab-dir": "/home/eis/clabs/hightower/ccnp-encor-review/clab-encor-review/R1",
@@ -751,7 +751,7 @@
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-64b5338de0dd",
+        "clab-mgmt-net-bridge": "br-c1def12bfa1e",
         "clab-node-group": "",
         "clab-node-kind": "cisco_iol",
         "clab-node-lab-dir": "/home/eis/clabs/hightower/ccnp-encor-review/clab-encor-review/R2",
@@ -776,13 +776,13 @@
       "image": "vrnetlab/cisco_iol:17.15.01",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.14",
+      "mgmt-ipv4-address": "172.20.20.12",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "3fff:172:20:20::e",
+      "mgmt-ipv6-address": "3fff:172:20:20::c",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-64b5338de0dd",
+        "clab-mgmt-net-bridge": "br-c1def12bfa1e",
         "clab-node-group": "",
         "clab-node-kind": "cisco_iol",
         "clab-node-lab-dir": "/home/eis/clabs/hightower/ccnp-encor-review/clab-encor-review/R3",
@@ -807,13 +807,13 @@
       "image": "vrnetlab/cisco_iol:17.15.01",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.12",
+      "mgmt-ipv4-address": "172.20.20.4",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "3fff:172:20:20::c",
+      "mgmt-ipv6-address": "3fff:172:20:20::4",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-64b5338de0dd",
+        "clab-mgmt-net-bridge": "br-c1def12bfa1e",
         "clab-node-group": "",
         "clab-node-kind": "cisco_iol",
         "clab-node-lab-dir": "/home/eis/clabs/hightower/ccnp-encor-review/clab-encor-review/R4",
@@ -838,13 +838,13 @@
       "image": "vrnetlab/cisco_iol:17.15.01",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.9",
+      "mgmt-ipv4-address": "172.20.20.10",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "3fff:172:20:20::9",
+      "mgmt-ipv6-address": "3fff:172:20:20::a",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-64b5338de0dd",
+        "clab-mgmt-net-bridge": "br-c1def12bfa1e",
         "clab-node-group": "",
         "clab-node-kind": "cisco_iol",
         "clab-node-lab-dir": "/home/eis/clabs/hightower/ccnp-encor-review/clab-encor-review/R5",
@@ -869,13 +869,13 @@
       "image": "vrnetlab/cisco_iol:17.15.01",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.4",
+      "mgmt-ipv4-address": "172.20.20.9",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "3fff:172:20:20::4",
+      "mgmt-ipv6-address": "3fff:172:20:20::9",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-64b5338de0dd",
+        "clab-mgmt-net-bridge": "br-c1def12bfa1e",
         "clab-node-group": "",
         "clab-node-kind": "cisco_iol",
         "clab-node-lab-dir": "/home/eis/clabs/hightower/ccnp-encor-review/clab-encor-review/R61",
@@ -900,13 +900,13 @@
       "image": "vrnetlab/cisco_iol:17.15.01",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.8",
+      "mgmt-ipv4-address": "172.20.20.5",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "3fff:172:20:20::8",
+      "mgmt-ipv6-address": "3fff:172:20:20::5",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-64b5338de0dd",
+        "clab-mgmt-net-bridge": "br-c1def12bfa1e",
         "clab-node-group": "",
         "clab-node-kind": "cisco_iol",
         "clab-node-lab-dir": "/home/eis/clabs/hightower/ccnp-encor-review/clab-encor-review/R62",
@@ -931,13 +931,13 @@
       "image": "vrnetlab/cisco_iol:17.15.01",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.7",
+      "mgmt-ipv4-address": "172.20.20.11",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "3fff:172:20:20::7",
+      "mgmt-ipv6-address": "3fff:172:20:20::b",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-64b5338de0dd",
+        "clab-mgmt-net-bridge": "br-c1def12bfa1e",
         "clab-node-group": "",
         "clab-node-kind": "cisco_iol",
         "clab-node-lab-dir": "/home/eis/clabs/hightower/ccnp-encor-review/clab-encor-review/R68",
@@ -962,13 +962,13 @@
       "image": "vrnetlab/cisco_iol:17.15.01",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.5",
+      "mgmt-ipv4-address": "172.20.20.7",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "3fff:172:20:20::5",
+      "mgmt-ipv6-address": "3fff:172:20:20::7",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-64b5338de0dd",
+        "clab-mgmt-net-bridge": "br-c1def12bfa1e",
         "clab-node-group": "",
         "clab-node-kind": "cisco_iol",
         "clab-node-lab-dir": "/home/eis/clabs/hightower/ccnp-encor-review/clab-encor-review/R7",
@@ -993,13 +993,13 @@
       "image": "vrnetlab/cisco_iol:17.15.01",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.2",
+      "mgmt-ipv4-address": "172.20.20.13",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "3fff:172:20:20::2",
+      "mgmt-ipv6-address": "3fff:172:20:20::d",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-64b5338de0dd",
+        "clab-mgmt-net-bridge": "br-c1def12bfa1e",
         "clab-node-group": "",
         "clab-node-kind": "cisco_iol",
         "clab-node-lab-dir": "/home/eis/clabs/hightower/ccnp-encor-review/clab-encor-review/R8",
@@ -1030,7 +1030,7 @@
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-64b5338de0dd",
+        "clab-mgmt-net-bridge": "br-c1def12bfa1e",
         "clab-node-group": "",
         "clab-node-kind": "cisco_iol",
         "clab-node-lab-dir": "/home/eis/clabs/hightower/ccnp-encor-review/clab-encor-review/R9",
@@ -1051,13 +1051,13 @@
         "a": {
           "node": "R1",
           "interface": "eth1",
-          "mac": "aa:c1:ab:28:14:e0",
+          "mac": "aa:c1:ab:8f:04:4b",
           "peer": "z"
         },
         "z": {
           "node": "R2",
           "interface": "eth1",
-          "mac": "aa:c1:ab:47:c4:8d",
+          "mac": "aa:c1:ab:c6:0b:f3",
           "peer": "a"
         }
       }
@@ -1067,13 +1067,13 @@
         "a": {
           "node": "R1",
           "interface": "eth2",
-          "mac": "aa:c1:ab:ea:89:1f",
+          "mac": "aa:c1:ab:08:91:52",
           "peer": "z"
         },
         "z": {
           "node": "R61",
           "interface": "eth1",
-          "mac": "aa:c1:ab:86:18:0e",
+          "mac": "aa:c1:ab:a2:dd:c6",
           "peer": "a"
         }
       }
@@ -1083,13 +1083,13 @@
         "a": {
           "node": "R2",
           "interface": "eth2",
-          "mac": "aa:c1:ab:7b:57:ac",
+          "mac": "aa:c1:ab:fb:47:b0",
           "peer": "z"
         },
         "z": {
           "node": "R3",
           "interface": "eth1",
-          "mac": "aa:c1:ab:f8:15:c8",
+          "mac": "aa:c1:ab:1b:0b:bf",
           "peer": "a"
         }
       }
@@ -1099,13 +1099,13 @@
         "a": {
           "node": "R2",
           "interface": "eth3",
-          "mac": "aa:c1:ab:8f:64:81",
+          "mac": "aa:c1:ab:30:38:cd",
           "peer": "z"
         },
         "z": {
           "node": "R4",
           "interface": "eth3",
-          "mac": "aa:c1:ab:52:f8:a5",
+          "mac": "aa:c1:ab:4c:24:bb",
           "peer": "a"
         }
       }
@@ -1115,13 +1115,13 @@
         "a": {
           "node": "R2",
           "interface": "eth4",
-          "mac": "aa:c1:ab:06:0a:13",
+          "mac": "aa:c1:ab:cc:fa:14",
           "peer": "z"
         },
         "z": {
           "node": "R5",
           "interface": "eth3",
-          "mac": "aa:c1:ab:a8:7e:4e",
+          "mac": "aa:c1:ab:75:db:c6",
           "peer": "a"
         }
       }
@@ -1131,13 +1131,13 @@
         "a": {
           "node": "R2",
           "interface": "eth6",
-          "mac": "aa:c1:ab:56:7b:5a",
+          "mac": "aa:c1:ab:28:b6:a6",
           "peer": "z"
         },
         "z": {
           "node": "R7",
           "interface": "eth1",
-          "mac": "aa:c1:ab:da:90:c4",
+          "mac": "aa:c1:ab:1a:93:67",
           "peer": "a"
         }
       }
@@ -1147,13 +1147,13 @@
         "a": {
           "node": "R3",
           "interface": "eth2",
-          "mac": "aa:c1:ab:15:fe:b6",
+          "mac": "aa:c1:ab:33:14:f4",
           "peer": "z"
         },
         "z": {
           "node": "R7",
           "interface": "eth4",
-          "mac": "aa:c1:ab:14:df:1f",
+          "mac": "aa:c1:ab:04:59:b3",
           "peer": "a"
         }
       }
@@ -1163,13 +1163,13 @@
         "a": {
           "node": "R4",
           "interface": "eth2",
-          "mac": "aa:c1:ab:10:e7:72",
+          "mac": "aa:c1:ab:6c:17:0b",
           "peer": "z"
         },
         "z": {
           "node": "R5",
           "interface": "eth2",
-          "mac": "aa:c1:ab:69:3a:23",
+          "mac": "aa:c1:ab:76:49:37",
           "peer": "a"
         }
       }
@@ -1179,13 +1179,13 @@
         "a": {
           "node": "R5",
           "interface": "eth1",
-          "mac": "aa:c1:ab:0c:5a:de",
+          "mac": "aa:c1:ab:f9:3a:ed",
           "peer": "z"
         },
         "z": {
           "node": "R8",
           "interface": "eth1",
-          "mac": "aa:c1:ab:43:55:c9",
+          "mac": "aa:c1:ab:70:1a:0d",
           "peer": "a"
         }
       }
@@ -1195,13 +1195,13 @@
         "a": {
           "node": "R68",
           "interface": "eth1",
-          "mac": "aa:c1:ab:99:07:7f",
+          "mac": "aa:c1:ab:08:13:7a",
           "peer": "z"
         },
         "z": {
           "node": "R8",
           "interface": "eth3",
-          "mac": "aa:c1:ab:c9:19:7b",
+          "mac": "aa:c1:ab:72:5e:b2",
           "peer": "a"
         }
       }
@@ -1211,13 +1211,13 @@
         "a": {
           "node": "R62",
           "interface": "eth1",
-          "mac": "aa:c1:ab:ca:13:29",
+          "mac": "aa:c1:ab:3e:63:44",
           "peer": "z"
         },
         "z": {
           "node": "R2",
           "interface": "eth5",
-          "mac": "aa:c1:ab:54:c7:21",
+          "mac": "aa:c1:ab:01:cd:96",
           "peer": "a"
         }
       }
@@ -1227,13 +1227,13 @@
         "a": {
           "node": "R7",
           "interface": "eth2",
-          "mac": "aa:c1:ab:97:91:81",
+          "mac": "aa:c1:ab:2a:eb:80",
           "peer": "z"
         },
         "z": {
           "node": "CSR1",
           "interface": "eth1",
-          "mac": "aa:c1:ab:66:27:89",
+          "mac": "aa:c1:ab:a3:f0:3e",
           "peer": "a"
         }
       }
@@ -1243,13 +1243,13 @@
         "a": {
           "node": "R7",
           "interface": "eth3",
-          "mac": "aa:c1:ab:4c:bb:93",
+          "mac": "aa:c1:ab:13:32:2a",
           "peer": "z"
         },
         "z": {
           "node": "R9",
           "interface": "eth1",
-          "mac": "aa:c1:ab:e5:69:84",
+          "mac": "aa:c1:ab:5e:3a:c5",
           "peer": "a"
         }
       }
@@ -1259,13 +1259,13 @@
         "a": {
           "node": "R8",
           "interface": "eth2",
-          "mac": "aa:c1:ab:0d:6a:80",
+          "mac": "aa:c1:ab:c4:00:c2",
           "peer": "z"
         },
         "z": {
           "node": "CSR1",
           "interface": "eth3",
-          "mac": "aa:c1:ab:e4:80:ae",
+          "mac": "aa:c1:ab:6b:24:2a",
           "peer": "a"
         }
       }
@@ -1275,13 +1275,13 @@
         "a": {
           "node": "R9",
           "interface": "eth2",
-          "mac": "aa:c1:ab:71:2c:97",
+          "mac": "aa:c1:ab:d3:56:8d",
           "peer": "z"
         },
         "z": {
           "node": "CSR1",
           "interface": "eth2",
-          "mac": "aa:c1:ab:26:37:af",
+          "mac": "aa:c1:ab:cf:ee:90",
           "peer": "a"
         }
       }
@@ -1291,13 +1291,13 @@
         "a": {
           "node": "CSW1",
           "interface": "eth1",
-          "mac": "aa:c1:ab:cb:93:93",
+          "mac": "aa:c1:ab:6e:33:50",
           "peer": "z"
         },
         "z": {
           "node": "R61",
           "interface": "eth2",
-          "mac": "aa:c1:ab:bf:00:9e",
+          "mac": "aa:c1:ab:c7:38:9e",
           "peer": "a"
         }
       }
@@ -1307,13 +1307,13 @@
         "a": {
           "node": "CSW1",
           "interface": "eth2",
-          "mac": "aa:c1:ab:ca:ec:7e",
+          "mac": "aa:c1:ab:79:94:6d",
           "peer": "z"
         },
         "z": {
           "node": "R62",
           "interface": "eth2",
-          "mac": "aa:c1:ab:d2:a1:57",
+          "mac": "aa:c1:ab:3d:8a:71",
           "peer": "a"
         }
       }
@@ -1323,13 +1323,13 @@
         "a": {
           "node": "CSW1",
           "interface": "eth3",
-          "mac": "aa:c1:ab:9a:c5:d5",
+          "mac": "aa:c1:ab:ba:5a:c9",
           "peer": "z"
         },
         "z": {
           "node": "R68",
           "interface": "eth2",
-          "mac": "aa:c1:ab:5d:55:2f",
+          "mac": "aa:c1:ab:a9:ab:4b",
           "peer": "a"
         }
       }
