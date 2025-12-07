@@ -1,0 +1,7 @@
+interfaces_list:
+  - name: Ethernet0/1
+    ip: 6.8.6.1/30
+  - name: Ethernet0/2
+    ip: 10.0.66.3/29
+  - name: Loopback0
+    ip: 68.68.68.68/24

@@ -1,0 +1,11 @@
+en
+conf t
+router ospf 12345
+passive-interface default
+no passive-interface e0/1
+interface e0/1
+ ip ospf 12345 area 0
+interface e0/2
+ ip ospf 12345 area 16
+end
+wr

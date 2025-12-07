@@ -1,0 +1,10 @@
+en
+conf t
+router ospf 12345
+network 2.0.0.0 0.255.255.255 area 0
+network 22.6.22.2 0.0.0.0 area 26
+network 22.7.22.2 0.0.0.0 area 27
+passive-interface e1/1
+passive-interface e1/2
+end
+wr

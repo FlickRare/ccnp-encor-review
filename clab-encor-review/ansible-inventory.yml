@@ -1,18 +1,26 @@
 all:
   vars:
-    # The generated inventory is assumed to be used from the clab host.
-    # Hence no http proxy should be used. Therefore we make sure the http
-    # module does not attempt using any global http proxy.
     ansible_httpapi_use_proxy: false
   children:
-    cisco_iol:
+    cisco_iol_l2:
       vars:
-        # ansible_connection: set ansible_connection variable if required
         ansible_user: admin
         ansible_password: admin
+        ansible_connection: network_cli
+        ansible_host_key_checking: false
+        ansible_network_os: cisco.ios.ios
       hosts:
         clab-encor-review-CSW1:
           ansible_host: 172.20.20.11
+
+    cisco_iol:
+      vars:
+        ansible_user: admin
+        ansible_password: admin
+        ansible_connection: network_cli
+        ansible_host_key_checking: false
+        ansible_network_os: cisco.ios.ios
+      hosts:
         clab-encor-review-R1:
           ansible_host: 172.20.20.13
         clab-encor-review-R2:
@@ -35,11 +43,14 @@ all:
           ansible_host: 172.20.20.2
         clab-encor-review-R9:
           ansible_host: 172.20.20.3
+
     vr-csr:
       vars:
-        # ansible_connection: set ansible_connection variable if required
         ansible_user: admin
         ansible_password: admin
+        ansible_connection: network_cli
+        ansible_host_key_checking: false
+        ansible_network_os: cisco.ios.ios
       hosts:
         clab-encor-review-CSR1:
           ansible_host: 172.20.20.10

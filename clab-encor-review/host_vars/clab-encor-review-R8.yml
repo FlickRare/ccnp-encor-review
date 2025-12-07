@@ -1,0 +1,7 @@
+interfaces_list:
+  - name: Ethernet0/1
+    ip: 5.8.5.2/30
+  - name: Ethernet0/2
+    ip: 8.7.8.2/30
+  - name: Ethernet0/3
+    ip: 6.8.6.2/30
