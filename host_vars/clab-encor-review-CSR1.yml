@@ -1,7 +1,0 @@
-interfaces_list:
-  - name: GigabitEthernet2
-    ip: 7.1.7.1/30
-  - name: GigabitEthernet3
-    ip: 10.0.9.1/30
-  - name: GigabitEthernet4
-    ip: 8.9.8.1/30
