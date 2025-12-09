@@ -1,0 +1,7 @@
+# groups.yaml
+---
+cisco_iol:
+  username: admin
+  password: admin
+  platform: cisco_iol
+

@@ -1,0 +1,42 @@
+---
+CSW1:
+    group: cisco_iol
+    hostname: 172.20.20.8
+R1:
+    group: cisco_iol
+    hostname: 172.20.20.2
+R2:
+    group: cisco_iol
+    hostname: 172.20.20.6
+R3:
+    group: cisco_iol
+    hostname: 172.20.20.12
+R4:
+    group: cisco_iol
+    hostname: 172.20.20.4
+R5:
+    group: cisco_iol
+    hostname: 172.20.20.10
+R61:
+    group: cisco_iol
+    hostname: 172.20.20.9
+R62:
+    group: cisco_iol
+    hostname: 172.20.20.5
+R68:
+    group: cisco_iol
+    hostname: 172.20.20.11
+R7:
+    group: cisco_iol
+    hostname: 172.20.20.7
+R8:
+    group: cisco_iol
+    hostname: 172.20.20.13
+R9:
+    group: cisco_iol
+    hostname: 172.20.20.3
+CSR1:
+    username: admin
+    password: admin
+    platform: vr-cs    
+    hostname: 172.20.20.14

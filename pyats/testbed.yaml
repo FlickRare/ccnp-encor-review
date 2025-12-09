@@ -1,0 +1,147 @@
+testbed:
+  name: ccnp-encor-testbed
+
+devices:
+  CSW1:
+    os: ios
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 172.20.20.8 
+    credentials:
+      default:
+        username: admin
+        password: admin
+  R1:
+    os: ios
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 172.20.20.2
+    credentials:
+      default:
+        username: admin
+        password: admin
+  R2:
+    os: ios
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 172.20.20.6
+    credentials:
+      default:
+        username: admin
+        password: admin
+  R3:
+    os: ios
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 172.20.20.12
+    credentials:
+      default:
+        username: admin
+        password: admin
+  R4:
+    os: ios
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 172.20.20.4
+    credentials:
+      default:
+        username: admin
+        password: admin
+  R5:
+    os: ios
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 172.20.20.10
+    credentials:
+      default:
+        username: admin
+        password: admin
+  R61:
+    os: ios
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 172.20.20.9
+    credentials:
+      default:
+        username: admin
+        password: admin
+  R62:
+    os: ios
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 172.20.20.5
+    credentials:
+      default:
+        username: admin
+        password: admin
+  R68:
+    os: ios
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 172.20.20.11
+    credentials:
+      default:
+        username: admin
+        password: admin
+  R7:
+    os: ios
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 172.20.20.7
+    credentials:
+      default:
+        username: admin
+        password: admin
+  R8:
+    os: ios
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 172.20.20.13
+    credentials:
+      default:
+        username: admin
+        password: admin
+  R9:
+    os: ios
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 172.20.20.3
+    credentials:
+      default:
+        username: admin
+        password: admin
+  CSR1:
+    os: ios
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 172.20.20.14
+    credentials:
+      default:
+        username: admin
+        password: admin

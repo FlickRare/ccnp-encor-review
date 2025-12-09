@@ -1,0 +1,55 @@
+---
+- name: Hardening - Shutdown Unused Interfaces
+  hosts: cisco_iol:vr-csr
+  gather_facts: no
+  vars:
+    ansible_connection: network_cli
+    ansible_host_key_checking: false
+    ansible_network_os: cisco.ios.ios
+
+  tasks:
+    # 1. Get the current state of the device
+    - name: Gather Interface Facts
+      cisco.ios.ios_facts:
+        gather_subset: interfaces
+
+    # 2. Extract the names from host_vars, we just want a list of names.
+    # Use 'map' to grab the 'name' attribute from every item in the list.
+    - name: Create list of allowed interface names
+      set_fact:
+        allowed_interface_names: "{{ interfaces_list | map(attribute='name') | list }}"
+
+    # 3. Calculate the difference
+    # Compare ALL interfaces on the device vs. the names we extracted above
+    - name: Identify interfaces to disable
+      set_fact:
+        interfaces_to_shutdown: >-
+          {{
+            ansible_net_interfaces.keys() | list 
+            | difference(allowed_interface_names)
+          }}
+
+    # Debug: Verify what we are about to do
+    - name: Display interfaces that will be disabled
+      debug:
+        msg: "Disabling the following: {{ interfaces_to_shutdown }}"
+
+    # 4. Apply the shutdown configuration
+    - name: Shutdown the unauthorized interfaces
+      cisco.ios.ios_interfaces:
+        config:
+          - name: "{{ item }}"
+            enabled: false
+        state: merged
+      loop: "{{ interfaces_to_shutdown }}"
+      when: interfaces_to_shutdown | length > 0
+
+    # Remove any unnecessary IPv4 addresses.
+    - name: Remove unused IPv4 addresses.
+      cisco.ios.ios_l3_interfaces:
+        config:
+          - name: "{{ item }}"
+            ipv4: []
+        state: merged
+      loop: "{{ interfaces_to_shutdown }}"
+      when: interfaces_to_shutdown | length > 0
