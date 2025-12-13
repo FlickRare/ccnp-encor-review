@@ -1,0 +1,3 @@
+management_interfaces:
+  - GigabitEthernet1
+  - Ethernet0/0

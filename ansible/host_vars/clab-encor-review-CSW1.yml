@@ -1,2 +1,3 @@
 interfaces_list:
-  - name: Ethernet0/0
+  - name: Loopback0
+    ip: 99.99.99.99/24

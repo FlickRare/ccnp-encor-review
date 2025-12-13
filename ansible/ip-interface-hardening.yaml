@@ -17,7 +17,7 @@
     # Use 'map' to grab the 'name' attribute from every item in the list.
     - name: Create list of allowed interface names
       set_fact:
-        allowed_interface_names: "{{ interfaces_list | map(attribute='name') | list }}"
+        allowed_interface_names: "{{ interfaces_list | map(attribute='name') | list | union(management_interfaces) }}"
 
     # 3. Calculate the difference
     # Compare ALL interfaces on the device vs. the names we extracted above

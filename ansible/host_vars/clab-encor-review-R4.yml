@@ -1,6 +1,4 @@
 interfaces_list:
-  - name: Ethernet0/0
-  - name: Ethernet0/0
   - name: Ethernet0/2
     ip: 10.4.2.13/30
   - name: Ethernet0/3
