@@ -8,7 +8,7 @@ devices:
     connections:
       cli:
         protocol: ssh
-        ip: 172.20.20.8 
+        ip: 172.20.20.3
     credentials:
       default:
         username: admin
@@ -19,7 +19,7 @@ devices:
     connections:
       cli:
         protocol: ssh
-        ip: 172.20.20.2
+        ip: 172.20.20.7
     credentials:
       default:
         username: admin
@@ -41,7 +41,7 @@ devices:
     connections:
       cli:
         protocol: ssh
-        ip: 172.20.20.12
+        ip: 172.20.20.8
     credentials:
       default:
         username: admin
@@ -63,7 +63,7 @@ devices:
     connections:
       cli:
         protocol: ssh
-        ip: 172.20.20.10
+        ip: 172.20.20.9
     credentials:
       default:
         username: admin
@@ -74,7 +74,7 @@ devices:
     connections:
       cli:
         protocol: ssh
-        ip: 172.20.20.9
+        ip: 172.20.20.10
     credentials:
       default:
         username: admin
@@ -96,7 +96,7 @@ devices:
     connections:
       cli:
         protocol: ssh
-        ip: 172.20.20.11
+        ip: 172.20.20.12
     credentials:
       default:
         username: admin
@@ -107,7 +107,7 @@ devices:
     connections:
       cli:
         protocol: ssh
-        ip: 172.20.20.7
+        ip: 172.20.20.14
     credentials:
       default:
         username: admin
@@ -118,7 +118,7 @@ devices:
     connections:
       cli:
         protocol: ssh
-        ip: 172.20.20.13
+        ip: 172.20.20.2
     credentials:
       default:
         username: admin
@@ -129,7 +129,7 @@ devices:
     connections:
       cli:
         protocol: ssh
-        ip: 172.20.20.3
+        ip: 172.20.20.11
     credentials:
       default:
         username: admin
@@ -140,7 +140,7 @@ devices:
     connections:
       cli:
         protocol: ssh
-        ip: 172.20.20.14
+        ip: 172.20.20.13
     credentials:
       default:
         username: admin

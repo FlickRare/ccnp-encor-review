@@ -3,12 +3,12 @@ CSW1:
     username: admin
     password: admin
     platform: cisco_iol
-    hostname: 172.20.20.8
+    hostname: 172.20.20.3
 R1:
     username: admin
     password: admin
     platform: cisco_iol
-    hostname: 172.20.20.2
+    hostname: 172.20.20.7
 R2:
     username: admin
     password: admin
@@ -18,7 +18,7 @@ R3:
     username: admin
     password: admin
     platform: cisco_iol
-    hostname: 172.20.20.12
+    hostname: 172.20.20.8
 R4:
     username: admin
     password: admin
@@ -28,12 +28,12 @@ R5:
     username: admin
     password: admin
     platform: cisco_iol
-    hostname: 172.20.20.10
+    hostname: 172.20.20.9
 R61:
     username: admin
     password: admin
     platform: cisco_iol
-    hostname: 172.20.20.9
+    hostname: 172.20.20.10
 R62:
     username: admin
     password: admin
@@ -43,24 +43,24 @@ R68:
     username: admin
     password: admin
     platform: cisco_iol
-    hostname: 172.20.20.11
+    hostname: 172.20.20.12
 R7:
     username: admin
     password: admin
     platform: cisco_iol
-    hostname: 172.20.20.7
+    hostname: 172.20.20.14
 R8:
     username: admin
     password: admin
     platform: cisco_iol
-    hostname: 172.20.20.13
+    hostname: 172.20.20.2
 R9:
     username: admin
     password: admin
     platform: cisco_iol
-    hostname: 172.20.20.3
+    hostname: 172.20.20.11
 CSR1:
     username: admin
     password: admin
     platform: vr-csr
-    hostname: 172.20.20.14
+    hostname: 172.20.20.13
